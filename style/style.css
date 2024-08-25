@@ -1,3 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lobster&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+.inter-regular {
+  font-family: "Inter", sans-serif;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+}
+
+.lobster-regular {
+  font-family: "Lobster", sans-serif;
+}
+
 * {
   padding: 0px;
   margin: 0px;
@@ -193,7 +206,7 @@ img.depend-img {
   width: 80%;
   margin: 0px auto 50px auto;
   display: grid;
-  grid-template-columns: repeat(2,1fr);
+  grid-template-columns: repeat(2, 1fr);
   padding: 10px;
 }
 .survive-content {
@@ -230,62 +243,62 @@ img.survive-img {
   border-radius: 5px;
 }
 /* servive section end  */
-.update{
-    width: 60%;
-    margin: 0px auto 50px auto;
+.update {
+  width: 60%;
+  margin: 0px auto 50px auto;
 }
-.update-content{
-    width: 55%;
-    text-align: center;
-    margin: 0px auto 30px auto;
+.update-content {
+  width: 55%;
+  text-align: center;
+  margin: 0px auto 30px auto;
 }
-.update-title{
-    color: rgb(18, 18, 18);
-    font-weight: bold;
-    font-size: 45px;
-    margin-bottom: 10px;
+.update-title {
+  color: rgb(18, 18, 18);
+  font-weight: bold;
+  font-size: 45px;
+  margin-bottom: 10px;
 }
-.update-paragraph{
-    color: rgb(112, 112, 112);
+.update-paragraph {
+  color: rgb(112, 112, 112);
 }
-.update-form{
-    text-align: center;
-    padding: 50px 0px;
-    background: rgb(255, 244, 214);
-    display: flex;
-    gap: 0px;
-    justify-content: center;
+.update-form {
+  text-align: center;
+  padding: 50px 0px;
+  background: rgb(255, 244, 214);
+  display: flex;
+  gap: 0px;
+  justify-content: center;
 }
-input[type="email"]{
-    height: 40px;
-    width: 50%;
-    margin-right: none;
-    padding-left: 10px;
-    border: none;
-    border-radius: 5px 0px 0px 5px;
-    color: rgb(170, 159, 159);
-    background: rgb(217, 217, 217);
-    outline: none;
+input[type="email"] {
+  height: 40px;
+  width: 50%;
+  margin-right: none;
+  padding-left: 10px;
+  border: none;
+  border-radius: 5px 0px 0px 5px;
+  color: rgb(170, 159, 159);
+  background: rgb(217, 217, 217);
+  outline: none;
 }
-input[type="submit"]{
-    height: 40px;
-    margin-right: none;
-    padding: 0px 20px;
-    border: none;
-    background: rgb(255, 89, 89);
-    border-radius: 0px 5px 5px 0px;
+input[type="submit"] {
+  height: 40px;
+  margin-right: none;
+  padding: 0px 20px;
+  border: none;
+  background: rgb(255, 89, 89);
+  border-radius: 0px 5px 5px 0px;
 }
-.footer{
-    background-color: black;
-    text-align: center;
-    padding: 50px 0px;
+.footer {
+  background-color: black;
+  text-align: center;
+  padding: 50px 0px;
 }
-.footer-title{
-    color: rgb(255, 89, 89);
-    font-size: 36px;
-    margin-bottom: 20px;
+.footer-title {
+  color: rgb(255, 89, 89);
+  font-size: 36px;
+  margin-bottom: 20px;
 }
-.footer-paragraph{
-    color: rgb(217, 219, 225);
-    font-size: 14px;
+.footer-paragraph {
+  color: rgb(217, 219, 225);
+  font-size: 14px;
 }
