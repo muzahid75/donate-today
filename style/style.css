@@ -7,7 +7,6 @@
 /* banner start  */
 .banner {
   width: 80%;
-  border: 2px solid red;
   background-image: linear-gradient(
       0deg,
       rgb(18, 18, 18),
@@ -24,7 +23,6 @@
 }
 .banner-content {
   width: 62%;
-  border: 2px solid red;
   text-align: center;
 }
 .banner-content a {
@@ -34,13 +32,11 @@
   font-size: 65px;
   font-weight: bold;
   color: white;
-  border: 2px solid red;
   margin-bottom: 20px;
 }
 .banner-paragraph {
   text-align: center;
   color: white;
-  border: 2px solid red;
   margin-bottom: 40px;
 }
 .btn {
