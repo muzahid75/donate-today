@@ -188,6 +188,7 @@ img.depend-img {
   border-radius: 5px;
 }
 /* depend section end  */
+/* servive section start   */
 .survive {
   width: 80%;
   margin: 0px auto 50px auto;
@@ -227,4 +228,50 @@ img.survive-img {
   width: 100%;
   height: 100%;
   border-radius: 5px;
+}
+/* servive section end  */
+.update{
+    width: 60%;
+    margin: 0px auto 50px auto;
+}
+.update-content{
+    width: 55%;
+    text-align: center;
+    margin: 0px auto 30px auto;
+}
+.update-title{
+    color: rgb(18, 18, 18);
+    font-weight: bold;
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+.update-paragraph{
+    color: rgb(112, 112, 112);
+}
+.update-form{
+    text-align: center;
+    padding: 50px 0px;
+    background: rgb(255, 244, 214);
+    display: flex;
+    gap: 0px;
+    justify-content: center;
+}
+input[type="email"]{
+    height: 40px;
+    width: 50%;
+    margin-right: none;
+    padding-left: 10px;
+    border: none;
+    border-radius: 5px 0px 0px 5px;
+    color: rgb(170, 159, 159);
+    background: rgb(217, 217, 217);
+    outline: none;
+}
+input[type="submit"]{
+    height: 40px;
+    margin-right: none;
+    padding: 0px 20px;
+    border: none;
+    background: rgb(255, 89, 89);
+    border-radius: 0px 5px 5px 0px;
 }
